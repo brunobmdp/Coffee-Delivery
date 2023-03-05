@@ -53,7 +53,7 @@ export function CartItem({
   return (
     <CartItemContainer>
       <CoffeeDescriptionContainer>
-        <img src={`src/assets/coffeeTypes/${imageSrc}`} alt="" />
+        <img src={`src/assets/${imageSrc}`} alt="" />
         <CoffeeTitleContainer>
           <h2>{coffeeName}</h2>
           <CoffeeOptionsContainer>
