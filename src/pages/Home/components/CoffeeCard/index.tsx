@@ -43,7 +43,7 @@ export function CoffeeCard({ coffeeType }: CoffeeCardProps) {
 
   return (
     <CoffeeContainer>
-      <img src={`src/assets/${coffeeType.image}`} alt="" />
+      <img src={coffeeType.image} alt="" />
       <TagContainer>
         {coffeeType.tags.map((tag) => {
           return <span key={tag}>{tag}</span>
